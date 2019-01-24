@@ -37,7 +37,7 @@ li a {
  }
 /*Properties for overall pages*/
 body, html {
-    background-color: #FBFBF2;
+    background-color: #fff;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
   
@@ -75,6 +75,7 @@ body, html {
     letter-spacing: 10px;
   }
 
+
   .enter {
       font-size: 20px;
       letter-spacing: 2px;
@@ -85,4 +86,46 @@ body, html {
   .enter:hover {
       color: rgb(37, 37, 37);
   }
-  
+
+  footer {
+      position: absolute;
+      right: 1%;
+      bottom: 1%;
+      color: #000;
+  }
+
+  .imgTitle {
+      text-align: left;
+      margin: 5px;
+     
+  }
+
+.imgTitle span.header{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.imgTitle span.subheader{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 10px;}
+
+  .post {
+      text-align: left;
+      padding: 10px;
+  }
+
+  .gallery {
+      margin: 5px;
+      width: 40%;
+  }
+
+  .gallery img {
+      width: 100%;
+      height : auto;
+  }
