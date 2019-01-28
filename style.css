@@ -4,10 +4,6 @@
     float: right;
 }
 
-.featuredPhoto {
-    width:  50%;
-    height: auto;
-}
 
 /*Properties for navbar*/
 ul {
@@ -16,7 +12,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #FBFBF200;
-    /*border-bottom: 1px solid #847577;*/
+   /* border-top: 1px solid #000;
+    border-bottom: 1px solid #111;*/
 }
 li {
     float: right; /*Have most items to the right of the screen*/
@@ -26,7 +23,7 @@ li {
 }
 li a {
     display: block;
-    color: #000;
+    color: #d9d9d9;
     text-align: center;
     padding:10px 12px;
     text-decoration: none;
@@ -37,9 +34,9 @@ li a {
  }
 /*Properties for overall pages*/
 body, html {
-    background-color: #fff;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
+    background-color: #111;
+    font: 400 17px/1.8 "Lato", sans-serif;
+    color: #d9d9d9;
   
     height: 100%;
     margin: 0;
@@ -47,10 +44,10 @@ body, html {
 
 /*Properties for langind page*/
 .bgImg {
-    /*Set full screen background image and dull the colour a bit for style*/
+    background-color: #fff;  /*Set full screen background image and dull the colour a bit for style*/
     position: relative;
     background-image: url(images/routeburn.jpg);
-    opacity: 0.70;
+    opacity: 0.90;
     height: 100%;
 
     background-position: center;
@@ -97,14 +94,13 @@ body, html {
   .imgTitle {
       text-align: left;
       margin: 5px;
-     
   }
 
 .imgTitle span.header{
     background-color: #000;
     color: #fff;
     padding: 10px;
-    font-size: 30px;
+    font-size: 29px;
     letter-spacing: 10px;
 }
 
@@ -112,20 +108,45 @@ body, html {
     background-color: #000;
     color: #fff;
     padding: 10px;
-    font-size: 20px;
-    letter-spacing: 10px;}
+    font-size: 15px;
+    letter-spacing: 7px;}
 
   .post {
       text-align: left;
-      padding: 10px;
+      padding: 20px;
+      opacity: 100%;
   }
 
   .gallery {
-      margin: 5px;
-      width: 40%;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    width: 55%; 
+    float: right;
   }
+/* looks decent --> could potentially do something like this
+  .gallery {
+    margin: 5px;
+    width: 100%; 
+}*/
 
   .gallery img {
       width: 100%;
       height : auto;
   }
+
+  .galleryPortrait {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    height: 700px;
+    float: right;
+    
+}
+
+.galleryPortrait img {
+    height: 100%;
+}
+.writeUp {
+    margin: 10px;
+}
