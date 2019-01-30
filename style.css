@@ -1,9 +1,37 @@
-.profileImg {
-    width: 225px;
-    height: 300px;
-    float: right;
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profileImg {
+    background-color: white;
+    padding: 5px;
+    height: 500px;
+    width: auto;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 5px;
+}
 
 /*Properties for navbar*/
 ul {
@@ -13,7 +41,7 @@ ul {
     overflow: hidden;
     background-color: #FBFBF200;
    /* border-top: 1px solid #000;
-    border-bottom: 1px solid #111;*/
+    border-bottom: 1px solid #444*/;
 }
 li {
     float: right; /*Have most items to the right of the screen*/
@@ -109,30 +137,19 @@ body, html {
     color: #fff;
     padding: 10px;
     font-size: 15px;
-    letter-spacing: 7px;}
-
-  .post {
-      text-align: left;
-      padding: 20px;
-      opacity: 100%;
-  }
+    letter-spacing: 7px;
+}
 
   .gallery {
     background-color: white;
     padding: 5px;
     margin: 5px;
-    width: 55%; 
+    /*width: 55%; */
+    height: 525px;
     float: right;
   }
-/* looks decent --> could potentially do something like this
-  .gallery {
-    margin: 5px;
-    width: 100%; 
-}*/
-
   .gallery img {
-      width: 100%;
-      height : auto;
+      height: 100%;
   }
 
   .galleryPortrait {
@@ -147,6 +164,6 @@ body, html {
 .galleryPortrait img {
     height: 100%;
 }
-.writeUp {
-    margin: 10px;
+.writeUp > p {
+    margin-right: 30px;
 }
