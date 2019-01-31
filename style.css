@@ -16,7 +16,7 @@
     margin-bottom: 10px;
 }
 
-.profileImg {
+.profile-img {
     background-color: white;
     padding: 5px;
     height: 700px;
@@ -48,7 +48,7 @@ ul {
 li {
     float: right; /*Have most items to the right of the screen*/
 }
-.floatLeft {
+.float-left {
     float: left; /*Allow us to put sometimes on the left of the screen*/
 }
 li a {
@@ -87,7 +87,7 @@ body, html {
 }
 
 /*Properties for langind page*/
-.bgImg {
+.bg-img {
     background-color: #fff;  /*Set full screen background image and dull the colour a bit for style*/
     position: relative;
     background-image: url(images/routeburn.jpg);
@@ -129,11 +129,16 @@ body, html {
   }
 
   footer {
-      display: block;
+     /* display: block;
       text-align: right;
-      margin-right: 1px;
-      margin-bottom:1px;
-      color: #fff;
+      color: #fff; */
+
+      position: absolute;
+      right: 2px;
+      bottom: 2px;
+      text-align: right;
+      color: #4B4B4B;
+
       font-size: 12px;
   }
 
@@ -145,11 +150,11 @@ body, html {
     color: #000;
 }
 
-  .imgTitle {
+  .img-title {
       text-align: left;
   }
 
-.imgTitle span.header{
+.img-title span.header{
     background-color: #000;
     color: #fff;
     padding: 10px;
@@ -157,7 +162,7 @@ body, html {
     letter-spacing: 10px;
 }
 
-.imgTitle span.subheader{
+.img-title span.subheader{
     background-color: #000;
     color: #fff;
     padding: 10px;
@@ -177,7 +182,7 @@ body, html {
       height: 100%;
   }
 
-  .galleryPortrait {
+  .gallery-portrait {
     background-color: white;
     padding: 5px;
     margin: 5px;
@@ -186,9 +191,9 @@ body, html {
     
 }
 
-.galleryPortrait img {
+.gallery-portrait img {
     height: 100%;
 }
-.writeUp > p {
+.write-up > p {
     margin-right: 30px;
 }
