@@ -19,7 +19,7 @@
 .profileImg {
     background-color: white;
     padding: 5px;
-    height: 500px;
+    height: 700px;
     width: auto;
 }
 
@@ -27,6 +27,8 @@ table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
     text-align: left;
+    margin-right: 2px;
+    margin-top: 10px;
 }
 
 th, td {
@@ -58,11 +60,25 @@ li a {
     font-size: 16px;
 }
  li a:hover {
-     color: rgb(37, 37, 37);
+     color: #4B4B4B;
+ }
+
+ .frontpage-nav {
+     color: #111;
+ }
+
+ .frontpage-nav:hover {
+     color: #d9d9d9;
  }
 /*Properties for overall pages*/
 body, html {
-    background-color: #111;
+    /*background-color: #111;
+    background-image: linear-gradient(to right bottom, #1f1f1f, #1c1c1c, #181818, #151515, #111111);*/
+    background-image: linear-gradient(to right bottom, #1f1f1f, #191919, #131313, #0b0b0b, #000000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     font: 400 17px/1.8 "Lato", sans-serif;
     color: #d9d9d9;
   
@@ -113,15 +129,24 @@ body, html {
   }
 
   footer {
-      position: absolute;
-      right: 1%;
-      bottom: 1%;
-      color: #000;
+      display: block;
+      text-align: right;
+      margin-right: 1px;
+      margin-bottom:1px;
+      color: #fff;
+      font-size: 12px;
   }
+
+  .homepage-footer {
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    text-align: right;
+    color: #000;
+}
 
   .imgTitle {
       text-align: left;
-      margin: 5px;
   }
 
 .imgTitle span.header{
