@@ -2,7 +2,6 @@
 .flex-column {
     display: flex;
     flex-direction: column;
-    margin-right: 5px;
 }
 
 /*Formatting of content*/
