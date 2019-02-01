@@ -1,14 +1,17 @@
+/*Formatting of content*/
 .flex-column {
     display: flex;
     flex-direction: column;
     margin-right: 5px;
 }
 
+/*Formatting of content*/
 .flex-row {
     display: flex;
     flex-direction: row;
 }
 
+/*Push the content of the pages in a bit*/
 .content {
     margin-left: 50px;
     margin-right: 50px;
@@ -16,13 +19,7 @@
     margin-bottom: 10px;
 }
 
-.profile-img {
-    background-color: white;
-    padding: 5px;
-    height: 650px;
-    width: auto;
-}
-
+/*Formatting for the tables*/
 table,
 th,
 td {
@@ -149,7 +146,7 @@ body {
     letter-spacing: 10px;
 }
 
-
+/*enter site link on main page*/
 .enter {
     font-size: 20px;
     letter-spacing: 2px;
@@ -180,6 +177,7 @@ footer {
     color: #000;
 }
 
+/*Titles for the images*/
 .img-title {
     text-align: left;
 }
@@ -200,14 +198,7 @@ footer {
     letter-spacing: 7px;
 }
 
-.gallery {
-    background-color: white;
-    padding: 5px;
-    margin: 5px;
-    height: 525px;
-    float: right;
-}
-
+/*Set the background and border for the images, float them right*/
 .feat-photo {
     float: right;
     background-color: white;
@@ -216,23 +207,7 @@ footer {
 
 }
 
-.gallery img {
-    height: 100%;
-}
-
-.gallery-portrait {
-    background-color: white;
-    padding: 5px;
-    margin: 5px;
-    height: 650;
-    float: right;
-
-}
-
-.gallery-portrait img {
-    height: 100%;
-}
-
+/*add space between write up and images*/
 .write-up>p {
     margin-right: 30px;
 }
