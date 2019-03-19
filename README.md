@@ -1,5 +1,8 @@
 # Seng-513-A1
+## Link to website
+https://s-seguin.github.io/Seng-513-A1/
 
+## Assignment Description
 The main objectives of this assignment are:
  
  -to design a simple website by manually crafting HTML and CSS, and
